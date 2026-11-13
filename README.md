@@ -59,3 +59,12 @@ A API utiliza uma tabela chamada `produtos`.
 3. Copie o arquivo `.env.example` e renomeie a cópia para `.env`.
 4. Preencha o `.env` com as configurações do seu PostgreSQL.
 5. Mantenha o arquivo `.env` fora do GitHub.
+
+## Como iniciar o servidor
+
+Após instalar as dependências e configurar o banco de dados,
+execute no terminal:
+
+```bash
+node index.js
+```
